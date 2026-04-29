@@ -1,4 +1,4 @@
-# ACR_256 (Aes Cryptography 256) 🛡️
+# Aes Cryptography 256🛡️
 
 **ACR_256** is a lightweight and high-performance C++ utility designed for secure **AES-256-GCM** operations. It simplifies the encryption process by bundling data with essential metadata, delivering a secure and portable Base64-encoded output.
 
@@ -16,13 +16,13 @@
 ### 1. Encryption
 Provide the plaintext content and a 32-byte Base64 key:
 ```bash
-./ACR_256.exe --content "Hello World" --set-key "BASE64_32BYTE_KEY_HERE"
+./crypto.exe --content "Hello World" --set-key "BASE64_32BYTE_KEY_HERE"
 ```
 
 ### 2. Decryption
 Pass the Base64-encoded package string and the matching key:
 ```bash
-./ACR_256.exe -d "ENCRYPTED_BASE64_STRING" --set-key "BASE64_32BYTE_KEY_HERE"
+./crypto.exe -d "ENCRYPTED_BASE64_STRING" --set-key "BASE64_32BYTE_KEY_HERE"
 ```
 
 ### 🛠 Compilation (Windows / MinGW)
